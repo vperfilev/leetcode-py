@@ -33,6 +33,3 @@ class TestLetterCombinations(unittest.TestCase):
         digits = "234"
         result = self.sol.letterCombinations(digits)
         self.assertEqual(len(result), 27)
-
-if __name__ == "__main__":
-    unittest.main()
